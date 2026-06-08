@@ -32,3 +32,12 @@ body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sa
 /* Small helpers */
 .hidden-mobile{display:none}
 @media(min-width:768px){.hidden-mobile{display:inline-flex}}
+
+/* Hero specifics */
+.hero-inner{position:relative;z-index:2}
+.hero-clip{clip-path:ellipse(120% 80% at 10% 20%)}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(2,6,23,0.35),rgba(2,6,23,0.55));pointer-events:none}
+
+/* Card utilities */
+.card {background:white;border-radius:1rem;padding:1.25rem}
+
