@@ -11,9 +11,9 @@ const values: Array<{
 }> = [
   {
     icon: FaFish,
-    title: "Propuesta especial",
+    title: "Especialidad marina",
     description:
-      "Una experiencia cuidada con sabores auténticos, presentación elegante y detalles pensados para cada visita."
+      "Una propuesta centrada en pescados y mariscos frescos, preparada con criterio y cuidado."
   },
   {
     icon: FaHandsHelping,
@@ -31,13 +31,13 @@ const values: Array<{
 
 export function AboutSection() {
   return (
-    <section id="nosotros" className="bg-[linear-gradient(180deg,#071423_0%,#0b2236_100%)] py-20 text-white sm:py-24 dark:bg-[#071827]">
+    <section id="nosotros" className="bg-lago-pearl py-20 sm:py-24 dark:bg-[#071827]">
       <div className="section-shell">
         <Reveal>
           <SectionHeading
             eyebrow="Sobre Nosotros"
             title="Tradición, frescura y hospitalidad junto a la mesa"
-            description="En Restaurante El Lago cada plato combina frescura, sazón y un ambiente acogedor para que disfrutes de una experiencia única en Cúcuta. Ven a disfrutar de sabores que sorprenden desde la primera cucharada."
+            description="Restaurante El Lago es un restaurante reconocido en Cúcuta por su especialidad en pescados y mariscos frescos. Nuestro compromiso es brindar una experiencia gastronómica excepcional, combinando ingredientes de calidad, excelente servicio y un ambiente ideal para compartir en familia."
           />
         </Reveal>
 
@@ -47,14 +47,14 @@ export function AboutSection() {
 
             return (
               <Reveal key={value.title} delay={index * 0.08}>
-                <article className="h-full rounded-3xl border border-white/10 bg-white/10 p-7 shadow-[0_18px_40px_rgba(8,15,35,0.35)] transition duration-200 hover:-translate-y-1 hover:border-cyan-300/40 hover:shadow-[0_24px_50px_rgba(56,189,248,0.18)] dark:border-white/10 dark:bg-white/[0.07]">
-                  <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-cyan-400/10 text-cyan-100 dark:bg-lago-aqua/10 dark:text-lago-aqua">
+                <article className="h-full rounded-lg border border-slate-200 bg-white p-7 shadow-soft transition hover:-translate-y-1 hover:shadow-premium dark:border-white/10 dark:bg-white/[0.07]">
+                  <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-md bg-lago-ice text-lago-blue dark:bg-lago-aqua/10 dark:text-lago-aqua">
                     <Icon size={25} />
                   </div>
-                  <h3 className="text-xl font-bold text-white dark:text-white">
+                  <h3 className="text-xl font-bold text-lago-navy dark:text-white">
                     {value.title}
                   </h3>
-                  <p className="mt-3 leading-7 text-slate-200 dark:text-white/70">
+                  <p className="mt-3 leading-7 text-slate-600 dark:text-white/70">
                     {value.description}
                   </p>
                 </article>

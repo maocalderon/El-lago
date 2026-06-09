@@ -24,7 +24,7 @@ export function Hero() {
   return (
     <section
       id="inicio"
-      className="relative isolate flex min-h-[88svh] items-center overflow-hidden bg-slate-950 pt-24 text-white"
+      className="relative isolate flex min-h-[88svh] items-center overflow-hidden bg-lago-navy pt-24 text-white"
     >
       <Image
         src="/images/el-lago-hero.png"
@@ -34,23 +34,24 @@ export function Hero() {
         sizes="100vw"
         className="absolute inset-0 -z-20 object-cover"
       />
-      <div className="absolute inset-0 -z-10 bg-[linear-gradient(110deg,#071626_0%,#0d3a5e_45%,#0ea5e9_100%)]" />
+      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-lago-navy via-lago-navy/80 to-lago-deep/40" />
       <div className="absolute inset-x-0 bottom-0 -z-10 h-36 bg-gradient-to-t from-lago-navy/75 to-transparent" />
 
       <div className="section-shell py-16 sm:py-20">
         <div className="max-w-3xl">
-          <p className="mb-5 inline-flex rounded-full border border-cyan-300/30 bg-cyan-400/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.24em] text-cyan-100 shadow-[0_10px_25px_rgba(56,189,248,0.18)] backdrop-blur">
-            Experiencia premium en Cúcuta
+          <p className="mb-5 inline-flex rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.24em] text-lago-aqua backdrop-blur">
+            Pescados y mariscos en Cúcuta
           </p>
           <h1 className="font-display text-5xl font-bold leading-[1.02] sm:text-6xl lg:text-7xl">
             Restaurante El Lago
           </h1>
           <p className="mt-6 text-xl font-semibold text-white sm:text-2xl">
-            Un lugar acogedor, elegante y pensado para disfrutar cada visita.
+            Especialistas en Pescados y Mariscos en Cúcuta
           </p>
           <p className="mt-5 max-w-2xl text-base leading-8 text-white/80 sm:text-lg">
-            Descubre una experiencia gastronómica única en Cúcuta, con sabor,
-            atención de calidad y un ambiente que invita a quedarse.
+            Disfruta de una experiencia gastronómica única con los mejores
+            sabores del mar preparados con ingredientes frescos y atención de
+            calidad.
           </p>
 
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
