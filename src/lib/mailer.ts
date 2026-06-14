@@ -1,45 +1,48 @@
 import nodemailer from "nodemailer";
 import type { ReservationInput } from "@/types/firestore";
 
-const {
-  SMTP_HOST,
-  SMTP_PORT,
-  SMTP_USER,
-  SMTP_PASS,
-  RESERVATION_EMAIL_FROM,
-  RESERVATION_EMAIL_TO
-} = process.env;
+function getTransporter() {
+  const {
+    SMTP_HOST,
+    SMTP_PORT,
+    SMTP_USER,
+    SMTP_PASS,
+  } = process.env;
 
-if (
-  !SMTP_HOST ||
-  !SMTP_PORT ||
-  !SMTP_USER ||
-  !SMTP_PASS ||
-  !RESERVATION_EMAIL_FROM ||
-  !RESERVATION_EMAIL_TO
-) {
-  throw new Error(
-    "Faltan variables de entorno para el correo. Define SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, RESERVATION_EMAIL_FROM y RESERVATION_EMAIL_TO."
-  );
-}
-
-const smtpPort = Number(SMTP_PORT);
-
-if (Number.isNaN(smtpPort) || smtpPort <= 0) {
-  throw new Error("SMTP_PORT debe ser un número válido mayor que cero.");
-}
-
-const transporter = nodemailer.createTransport({
-  host: SMTP_HOST,
-  port: smtpPort,
-  secure: smtpPort === 465,
-  auth: {
-    user: SMTP_USER,
-    pass: SMTP_PASS
+  if (!SMTP_HOST || !SMTP_PORT || !SMTP_USER || !SMTP_PASS) {
+    throw new Error(
+      "Faltan variables de entorno para el correo. Define SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, RESERVATION_EMAIL_FROM y RESERVATION_EMAIL_TO."
+    );
   }
-});
+
+  const smtpPort = Number(SMTP_PORT);
+
+  if (Number.isNaN(smtpPort) || smtpPort <= 0) {
+    throw new Error("SMTP_PORT debe ser un número válido mayor que cero.");
+  }
+
+  return nodemailer.createTransport({
+    host: SMTP_HOST,
+    port: smtpPort,
+    secure: smtpPort === 465,
+    auth: {
+      user: SMTP_USER,
+      pass: SMTP_PASS
+    }
+  });
+}
 
 export async function sendReservationEmail(data: ReservationInput) {
+  const { RESERVATION_EMAIL_FROM, RESERVATION_EMAIL_TO } = process.env;
+
+  if (!RESERVATION_EMAIL_FROM || !RESERVATION_EMAIL_TO) {
+    throw new Error(
+      "Faltan variables de entorno para el correo. Define RESERVATION_EMAIL_FROM y RESERVATION_EMAIL_TO."
+    );
+  }
+
+  const transporter = getTransporter();
+
   const subject = `Nueva reserva de ${data.name}`;
   const text = `Nueva reserva recibida:\n\nNombre: ${data.name}\nTeléfono: ${data.phone}\nCorreo: ${data.email}\nPersonas: ${data.people}\nFecha: ${data.date}\nHora: ${data.time}\nComentarios: ${data.comments}`;
   const html = `
