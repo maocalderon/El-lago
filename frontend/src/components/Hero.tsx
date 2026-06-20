@@ -34,6 +34,24 @@ export function Hero() {
         sizes="100vw"
         className="absolute inset-0 -z-20 object-cover"
       />
+      <div className="absolute -bottom-10 -right-10 -z-10 h-[500px] w-[500px] opacity-30">
+        <Image
+          src="/images/bg-decoration.jpeg"
+          alt=""
+          fill
+          className="rounded-full object-cover blur-xl"
+          sizes="500px"
+        />
+      </div>
+      <div className="absolute -left-20 top-20 -z-10 h-[300px] w-[300px] opacity-20">
+        <Image
+          src="/images/bg-decoration.jpeg"
+          alt=""
+          fill
+          className="rounded-full object-cover blur-2xl"
+          sizes="300px"
+        />
+      </div>
       <div className="absolute inset-0 -z-10 bg-gradient-to-r from-lago-navy via-lago-navy/80 to-lago-deep/40" />
       <div className="absolute inset-x-0 bottom-0 -z-10 h-36 bg-gradient-to-t from-lago-navy/75 to-transparent" />
 

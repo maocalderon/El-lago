@@ -46,13 +46,21 @@ body {
   }
 
   .primary-button {
-    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-lago-aqua px-5 py-3 text-sm font-bold text-lago-navy shadow-soft transition hover:-translate-y-0.5 hover:bg-white focus:outline-none focus:ring-4 focus:ring-lago-aqua/30;
+    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-lago-aqua px-5 py-3 text-sm font-bold text-lago-navy shadow-soft transition hover:-translate-y-0.5 hover:bg-lago-sky focus:outline-none focus:ring-4 focus:ring-lago-aqua/30;
   }
 
   .secondary-button {
     @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-white/30 bg-white/10 px-5 py-3 text-sm font-bold text-white backdrop-blur transition hover:-translate-y-0.5 hover:bg-white/20 focus:outline-none focus:ring-4 focus:ring-white/20;
   }
 }
+
+  .bg-decoration {
+    @apply pointer-events-none fixed inset-0 -z-10 overflow-hidden;
+  }
+
+  .bg-decoration-blob {
+    @apply absolute rounded-full object-cover blur-3xl;
+  }
 
 @media (prefers-reduced-motion: reduce) {
   *,

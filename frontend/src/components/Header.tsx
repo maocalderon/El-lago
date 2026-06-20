@@ -29,7 +29,7 @@ export function Header() {
   }, [isDark]);
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 border-b border-white/20 bg-white/90 backdrop-blur-xl dark:border-white/10 dark:bg-lago-navy/90">
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-lago-sky/20 bg-white/90 backdrop-blur-xl dark:border-lago-sky/10 dark:bg-lago-navy/90">
       <div className="section-shell flex h-20 items-center justify-between">
         <a
           href="#inicio"
@@ -38,12 +38,12 @@ export function Header() {
           onClick={() => setIsOpen(false)}
         >
           <Image
-            src="/logo-el-lago.svg"
+            src="/images/logo-lago.jpeg"
             alt="Restaurante El Lago"
-            width={178}
+            width={56}
             height={56}
             priority
-            className="h-14 w-auto"
+            className="h-14 w-14 rounded-2xl border-2 border-lago-sky/30 object-cover shadow-soft"
           />
         </a>
 

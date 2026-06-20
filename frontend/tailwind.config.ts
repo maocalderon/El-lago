@@ -15,6 +15,7 @@ const config: Config = {
           deep: "#0a355d",
           blue: "#0f8fc7",
           aqua: "#7bdff2",
+          sky: "#b8dff0",
           ice: "#edfaff",
           pearl: "#f8fbfd",
           ink: "#102030"
