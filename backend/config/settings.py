@@ -137,7 +137,7 @@ STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 CORS_ALLOWED_ORIGINS = os.environ.get(
     "CORS_ALLOWED_ORIGINS",
-    "http://localhost:3000,https://el-lago-production.up.railway.app",
+    "http://localhost:3000,https://el-lago-production.up.railway.app,https://perceptive-courage-production-27eb.up.railway.app",
 ).split(",")
 
 CORS_ALLOW_CREDENTIALS = True
@@ -156,7 +156,7 @@ RESERVATION_EMAIL_TO = os.environ.get("RESERVATION_EMAIL_TO", "")
 
 FRONTEND_URL = os.environ.get(
     "FRONTEND_URL",
-    "https://el-lago-production.up.railway.app",
+    "https://perceptive-courage-production-27eb.up.railway.app",
 )
 
 REST_FRAMEWORK = {

@@ -18,5 +18,5 @@ urlpatterns = [
     path("api/", include("reviews.urls")),
     path("api/", include("dashboard.urls")),
     path("api/auth/login/", dashboard_views.login_view, name="dashboard-login"),
-    path("", RedirectView.as_view(url="/admin/"), name="frontend"),
+    path("", RedirectView.as_view(url=settings.FRONTEND_URL), name="frontend"),
 ]
