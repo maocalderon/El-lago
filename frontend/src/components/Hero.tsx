@@ -34,22 +34,13 @@ export function Hero() {
         sizes="100vw"
         className="absolute inset-0 -z-20 object-cover"
       />
-      <div className="absolute -bottom-10 -right-10 -z-10 h-[500px] w-[500px] opacity-30">
+      <div className="absolute -bottom-10 -right-10 -z-10 h-[500px] w-[500px] opacity-20">
         <Image
           src="/images/bg-decoration.jpeg"
           alt=""
           fill
-          className="rounded-full object-cover blur-xl"
+          className="object-cover blur-xl"
           sizes="500px"
-        />
-      </div>
-      <div className="absolute -left-20 top-20 -z-10 h-[300px] w-[300px] opacity-20">
-        <Image
-          src="/images/bg-decoration.jpeg"
-          alt=""
-          fill
-          className="rounded-full object-cover blur-2xl"
-          sizes="300px"
         />
       </div>
       <div className="absolute inset-0 -z-10 bg-gradient-to-r from-lago-navy via-lago-navy/80 to-lago-deep/40" />
@@ -57,7 +48,7 @@ export function Hero() {
 
       <div className="section-shell py-16 sm:py-20">
         <div className="max-w-3xl">
-          <p className="mb-5 inline-flex rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.24em] text-lago-aqua backdrop-blur">
+          <p className="mb-5 inline-flex rounded-full border border-lago-gold/30 bg-lago-gold/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.24em] text-lago-gold backdrop-blur">
             Pescados y mariscos en Cúcuta
           </p>
           <h1 className="font-display text-5xl font-bold leading-[1.02] sm:text-6xl lg:text-7xl">

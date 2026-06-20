@@ -123,7 +123,7 @@ export function ReviewsSection() {
                           Reseña aprobada
                         </p>
                       </div>
-                      <FaQuoteLeft className="text-lago-blue/40" size={23} />
+                      <FaQuoteLeft className="text-lago-gold/40" size={23} />
                     </div>
                     <Stars value={review.rating} className="mt-5" />
                     <p className="mt-4 leading-7 text-slate-600 dark:text-white/70">

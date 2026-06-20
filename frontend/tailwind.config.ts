@@ -11,22 +11,21 @@ const config: Config = {
     extend: {
       colors: {
         lago: {
-          navy: "#061d35",
-          deep: "#0a355d",
-          blue: "#0f8fc7",
-          aqua: "#7bdff2",
-          sky: "#b8dff0",
-          ice: "#edfaff",
+          navy: "#172f4e",
+          deep: "#0a2a4a",
+          gold: "#f59f17",
+          sky: "#a3d7df",
+          cream: "#eee6d5",
           pearl: "#f8fbfd",
           ink: "#102030"
         }
       },
       boxShadow: {
-        premium: "0 24px 70px rgba(6, 29, 53, 0.18)",
-        soft: "0 14px 40px rgba(6, 29, 53, 0.1)"
+        premium: "0 24px 70px rgba(23, 47, 78, 0.18)",
+        soft: "0 14px 40px rgba(23, 47, 78, 0.1)"
       },
       backgroundImage: {
-        "lago-radial": "radial-gradient(circle at 15% 20%, rgba(123, 223, 242, 0.22), transparent 28%), linear-gradient(135deg, #061d35 0%, #0a355d 52%, #0f8fc7 100%)"
+        "lago-radial": "radial-gradient(circle at 15% 20%, rgba(163, 215, 223, 0.25), transparent 28%), linear-gradient(135deg, #172f4e 0%, #0a2a4a 52%, #172f4e 100%)"
       },
       fontFamily: {
         sans: ["var(--font-inter)", "Arial", "sans-serif"],

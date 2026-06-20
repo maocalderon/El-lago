@@ -13,24 +13,26 @@ import { ReviewsSection } from "@/components/ReviewsSection";
 
 export function HomePage() {
   return (
-    <div className="min-h-screen overflow-x-hidden bg-lago-pearl text-lago-ink dark:bg-[#06111f] dark:text-white">
-      <div className="bg-decoration">
-        <Image
-          src="/images/bg-decoration.jpeg"
-          alt=""
-          fill
-          className="bg-decoration-blob -right-40 -top-40 opacity-[0.06] dark:opacity-[0.04]"
-          sizes="600px"
-          style={{ objectPosition: "right top" }}
-        />
-        <Image
-          src="/images/bg-decoration.jpeg"
-          alt=""
-          fill
-          className="bg-decoration-blob -bottom-40 -left-40 opacity-[0.04] dark:opacity-[0.03]"
-          sizes="500px"
-          style={{ objectPosition: "left bottom" }}
-        />
+    <div className="min-h-screen overflow-x-hidden bg-lago-pearl text-lago-ink dark:bg-[#0d1a2e] dark:text-white">
+      <div className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
+        <div className="absolute -right-40 -top-40 h-[500px] w-[500px] opacity-[0.07] dark:opacity-[0.05]">
+          <Image
+            src="/images/bg-decoration.jpeg"
+            alt=""
+            fill
+            className="rounded-full object-cover blur-3xl"
+            sizes="500px"
+          />
+        </div>
+        <div className="absolute -bottom-40 -left-40 h-[400px] w-[400px] opacity-[0.05] dark:opacity-[0.03]">
+          <Image
+            src="/images/bg-decoration.jpeg"
+            alt=""
+            fill
+            className="rounded-full object-cover blur-3xl"
+            sizes="400px"
+          />
+        </div>
       </div>
       <Header />
       <main>

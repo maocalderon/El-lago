@@ -28,12 +28,12 @@ body {
 }
 
 .dark body {
-  background: #06111f;
+  background: #0d1a2e;
   color: #f8fbfd;
 }
 
 ::selection {
-  background: rgba(15, 143, 199, 0.25);
+  background: rgba(245, 159, 23, 0.3);
 }
 
 @layer components {
@@ -42,25 +42,17 @@ body {
   }
 
   .input-field {
-    @apply w-full rounded-md border border-slate-200 bg-white px-4 py-3 text-sm text-lago-ink outline-none transition placeholder:text-slate-400 focus:border-lago-blue focus:ring-4 focus:ring-lago-blue/20 dark:border-white/10 dark:bg-white/[0.08] dark:text-white dark:placeholder:text-white/40;
+    @apply w-full rounded-md border border-slate-200 bg-white px-4 py-3 text-sm text-lago-ink outline-none transition placeholder:text-slate-400 focus:border-lago-gold focus:ring-4 focus:ring-lago-gold/20 dark:border-white/10 dark:bg-white/[0.08] dark:text-white dark:placeholder:text-white/40;
   }
 
   .primary-button {
-    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-lago-aqua px-5 py-3 text-sm font-bold text-lago-navy shadow-soft transition hover:-translate-y-0.5 hover:bg-lago-sky focus:outline-none focus:ring-4 focus:ring-lago-aqua/30;
+    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-lago-gold px-5 py-3 text-sm font-bold text-white shadow-soft transition hover:-translate-y-0.5 hover:brightness-110 focus:outline-none focus:ring-4 focus:ring-lago-gold/30;
   }
 
   .secondary-button {
     @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-white/30 bg-white/10 px-5 py-3 text-sm font-bold text-white backdrop-blur transition hover:-translate-y-0.5 hover:bg-white/20 focus:outline-none focus:ring-4 focus:ring-white/20;
   }
 }
-
-  .bg-decoration {
-    @apply pointer-events-none fixed inset-0 -z-10 overflow-hidden;
-  }
-
-  .bg-decoration-blob {
-    @apply absolute rounded-full object-cover blur-3xl;
-  }
 
 @media (prefers-reduced-motion: reduce) {
   *,

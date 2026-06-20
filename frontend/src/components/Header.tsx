@@ -29,7 +29,7 @@ export function Header() {
   }, [isDark]);
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 border-b border-lago-sky/20 bg-white/90 backdrop-blur-xl dark:border-lago-sky/10 dark:bg-lago-navy/90">
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-lago-sky/30 bg-white/90 backdrop-blur-xl dark:border-lago-sky/10 dark:bg-lago-navy/90">
       <div className="section-shell flex h-20 items-center justify-between">
         <a
           href="#inicio"
@@ -40,11 +40,14 @@ export function Header() {
           <Image
             src="/images/logo-lago.jpeg"
             alt="Restaurante El Lago"
-            width={56}
-            height={56}
+            width={52}
+            height={52}
             priority
-            className="h-14 w-14 rounded-2xl border-2 border-lago-sky/30 object-cover shadow-soft"
+            className="h-13 w-13 rounded-xl border-2 border-lago-gold/40 object-cover shadow-premium"
           />
+          <span className="ml-3 font-display text-xl font-bold text-lago-navy dark:text-white">
+            El Lago
+          </span>
         </a>
 
         <nav className="hidden items-center gap-8 lg:flex">
@@ -52,7 +55,7 @@ export function Header() {
             <a
               key={item.href}
               href={item.href}
-              className="text-sm font-semibold text-lago-ink transition hover:text-lago-blue dark:text-white/80 dark:hover:text-lago-aqua"
+              className="text-sm font-semibold text-lago-ink transition hover:text-lago-gold dark:text-white/80 dark:hover:text-lago-gold"
             >
               {item.label}
             </a>
@@ -66,7 +69,7 @@ export function Header() {
             aria-pressed={isDark}
             title={isDark ? "Modo claro" : "Modo oscuro"}
             onClick={() => setIsDark((value) => !value)}
-            className="inline-flex h-11 w-11 items-center justify-center rounded-md border border-slate-200 bg-white text-lago-navy transition hover:border-lago-blue hover:text-lago-blue dark:border-white/10 dark:bg-white/10 dark:text-white dark:hover:text-lago-aqua"
+            className="inline-flex h-11 w-11 items-center justify-center rounded-md border border-slate-200 bg-white text-lago-navy transition hover:border-lago-gold hover:text-lago-gold dark:border-white/10 dark:bg-white/10 dark:text-white dark:hover:text-lago-gold"
           >
             {isDark ? <FiSun size={19} /> : <FiMoon size={19} />}
           </button>
@@ -76,7 +79,7 @@ export function Header() {
             aria-label={isOpen ? "Cerrar menú" : "Abrir menú"}
             aria-expanded={isOpen}
             onClick={() => setIsOpen((value) => !value)}
-            className="inline-flex h-11 w-11 items-center justify-center rounded-md border border-slate-200 bg-white text-lago-navy transition hover:border-lago-blue hover:text-lago-blue lg:hidden dark:border-white/10 dark:bg-white/10 dark:text-white"
+            className="inline-flex h-11 w-11 items-center justify-center rounded-md border border-slate-200 bg-white text-lago-navy transition hover:border-lago-gold hover:text-lago-gold lg:hidden dark:border-white/10 dark:bg-white/10 dark:text-white"
           >
             {isOpen ? <FiX size={22} /> : <FiMenu size={22} />}
           </button>
@@ -91,7 +94,7 @@ export function Header() {
                 key={item.href}
                 href={item.href}
                 onClick={() => setIsOpen(false)}
-                className="rounded-md px-3 py-3 text-sm font-semibold text-lago-ink transition hover:bg-lago-ice hover:text-lago-blue dark:text-white/90 dark:hover:bg-white/10"
+                className="rounded-md px-3 py-3 text-sm font-semibold text-lago-ink transition hover:bg-lago-cream hover:text-lago-gold dark:text-white/90 dark:hover:bg-white/10"
               >
                 {item.label}
               </a>

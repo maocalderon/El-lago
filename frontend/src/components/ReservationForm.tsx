@@ -190,7 +190,7 @@ export function ReservationForm() {
           />
 
           <div className="mt-8 rounded-lg bg-lago-radial p-7 text-white shadow-premium">
-            <p className="text-sm font-bold uppercase tracking-[0.24em] text-lago-aqua">
+            <p className="text-sm font-bold uppercase tracking-[0.24em] text-lago-sky">
               Atención
             </p>
             <p className="mt-3 text-2xl font-bold">3506321235</p>
@@ -391,7 +391,7 @@ function FormField({
       {label}
       <span className="relative mt-2 block">
         {icon ? (
-          <span className="pointer-events-none absolute left-4 top-1/2 z-10 -translate-y-1/2 text-lago-blue">
+          <span className="pointer-events-none absolute left-4 top-1/2 z-10 -translate-y-1/2 text-lago-gold">
             {icon}
           </span>
         ) : null}

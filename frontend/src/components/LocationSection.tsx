@@ -20,7 +20,7 @@ export function LocationSection() {
           <Reveal>
             <div className="flex h-full flex-col justify-between rounded-lg bg-lago-radial p-7 text-white shadow-premium">
               <div>
-                <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-md bg-white/10 text-lago-aqua">
+                <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-md bg-white/10 text-lago-sky">
                   <FiMapPin size={25} />
                 </div>
                 <h3 className="text-2xl font-bold">Dirección</h3>
@@ -37,7 +37,7 @@ export function LocationSection() {
                 href={mapsDirectionsUrl}
                 target="_blank"
                 rel="noreferrer"
-                className="primary-button mt-8 bg-white text-lago-navy hover:bg-lago-aqua hover:text-lago-navy"
+                className="primary-button mt-8 bg-white text-lago-navy hover:bg-lago-sky hover:text-lago-navy"
               >
                 <FiNavigation size={18} />
                 Cómo Llegar

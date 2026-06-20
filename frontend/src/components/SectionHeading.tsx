@@ -19,7 +19,7 @@ export function SectionHeading({
           : "max-w-3xl text-left"
       }
     >
-      <p className="text-xs font-bold uppercase tracking-[0.28em] text-lago-blue">
+      <p className="text-xs font-bold uppercase tracking-[0.28em] text-lago-gold">
         {eyebrow}
       </p>
       <h2 className="mt-3 font-display text-3xl font-bold text-lago-navy sm:text-4xl dark:text-white">
