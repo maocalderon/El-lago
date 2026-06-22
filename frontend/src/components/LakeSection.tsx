@@ -25,23 +25,23 @@ export function LakeSection() {
         </Reveal>
 
         <Reveal delay={0.1}>
-          <div className="relative mt-12 overflow-hidden rounded-2xl shadow-premium bg-lago-navy/5">
-            <div className="relative">
+          <div className="relative mt-12 overflow-hidden rounded-2xl shadow-premium bg-lago-navy">
+            <div className="relative h-[200px] sm:h-[260px] md:h-[320px]">
               <Image
                 src="/images/bg-whatsapp.jpeg"
                 alt="Vista del lago que rodea Restaurante El Lago"
-                width={1200}
-                height={675}
+                fill
                 priority
-                className="w-full h-auto"
+                sizes="100vw"
+                className="object-contain"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-lago-navy/50 via-transparent to-transparent" />
             </div>
-            <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-8">
-              <p className="text-lg font-bold text-white drop-shadow-lg sm:text-xl">
+            <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6">
+              <p className="text-base font-bold text-white drop-shadow-lg sm:text-lg">
                 Restaurante El Lago — Cúcuta
               </p>
-              <p className="mt-1 text-sm text-white/80 drop-shadow">
+              <p className="mt-0.5 text-xs text-white/80 drop-shadow sm:text-sm">
                 Una experiencia única frente al agua
               </p>
             </div>
