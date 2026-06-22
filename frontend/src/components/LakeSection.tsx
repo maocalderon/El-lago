@@ -11,7 +11,7 @@ export function LakeSection() {
         fill
         priority
         sizes="100vw"
-        className="absolute inset-0 -z-20 object-cover"
+        className="absolute inset-0 -z-20 object-scale-down"
       />
 
       <div className="absolute inset-0 -z-10 bg-gradient-to-r from-lago-navy via-lago-navy/75 to-lago-deep/30" />
@@ -20,25 +20,20 @@ export function LakeSection() {
       <div className="absolute right-20 top-40 -z-10 h-40 w-40 rounded-full bg-lago-ocean/10 blur-2xl animate-float-medium" />
       <div className="absolute bottom-40 left-1/3 -z-10 h-32 w-32 rounded-full bg-lago-gold/10 blur-2xl animate-float-fast" />
 
-      <div className="absolute inset-x-0 bottom-0 -z-10 h-36 bg-gradient-to-t from-lago-navy/75 to-transparent" />
+      <div className="absolute inset-x-0 bottom-0 -z-10 h-1/2 bg-gradient-to-t from-lago-navy/90 via-lago-navy/50 to-transparent" />
 
-      <div className="section-shell py-16 sm:py-20">
+      <div className="absolute bottom-8 left-0 right-0 z-10 text-center sm:bottom-12">
         <Reveal>
-          <div className="mx-auto max-w-3xl text-center">
-            <p className="inline-flex animate-float-slow rounded-full border border-lago-ocean/30 bg-lago-ocean/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.24em] text-lago-ocean shadow-lg shadow-lago-ocean/10 backdrop-blur">
-              Nuestro Entorno
-            </p>
-            <h2 className="mt-6 font-display text-4xl font-bold leading-[1.1] sm:text-5xl lg:text-6xl">
-              El Lago que da nombre al restaurante
-            </h2>
-            <div className="mx-auto mt-6 flex justify-center">
-              <div className="section-divider" />
-            </div>
-            <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-white/80 sm:text-xl">
-              Ubicado a orillas del lago, nuestro restaurante ofrece una vista
-              privilegiada que acompaña cada experiencia gastronómica.
-            </p>
-          </div>
+          <p className="text-xs font-bold uppercase tracking-[0.28em] text-lago-ocean">
+            Nuestro Entorno
+          </p>
+          <h2 className="mt-2 font-display text-5xl font-bold leading-[1.1] text-white drop-shadow-2xl sm:text-7xl lg:text-8xl">
+            El Lago
+          </h2>
+          <p className="mx-auto mt-2 max-w-xl text-sm leading-6 text-white/70 sm:text-base">
+            Ubicado a orillas del lago, nuestro restaurante ofrece una vista
+            privilegiada que acompaña cada experiencia gastronómica.
+          </p>
         </Reveal>
       </div>
     </section>
