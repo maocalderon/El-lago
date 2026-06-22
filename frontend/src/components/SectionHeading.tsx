@@ -19,8 +19,14 @@ export function SectionHeading({
           : "max-w-3xl text-left"
       }
     >
-      <p className="text-xs font-bold uppercase tracking-[0.28em] text-lago-ocean">
+      <p className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.28em] text-lago-ocean">
+        <svg className="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+          <path d="M2 12 C6 6 10 14 14 10 C18 6 22 12 22 12" />
+        </svg>
         {eyebrow}
+        <svg className="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+          <path d="M2 12 C6 6 10 14 14 10 C18 6 22 12 22 12" />
+        </svg>
       </p>
       <div className={align === "center" ? "mx-auto mt-3" : "mt-3"}>
         <h2 className="font-display text-3xl font-bold text-lago-navy sm:text-4xl dark:text-white">

@@ -34,7 +34,11 @@ const config: Config = {
       animation: {
         "float-slow": "float 6s ease-in-out infinite",
         "float-medium": "float 4s ease-in-out infinite",
-        "float-fast": "float 3s ease-in-out infinite"
+        "float-fast": "float 3s ease-in-out infinite",
+        shimmer: "shimmer 4s ease-in-out infinite",
+        "pulse-soft": "pulse-soft 3s ease-in-out infinite",
+        ripple: "ripple 3s ease-in-out infinite",
+        sway: "sway 4s ease-in-out infinite"
       },
       fontFamily: {
         sans: ["var(--font-inter)", "Arial", "sans-serif"],

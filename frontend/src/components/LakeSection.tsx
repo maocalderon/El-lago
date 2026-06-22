@@ -30,7 +30,21 @@ export function LakeSection() {
           <h2 className="mt-2 font-display text-5xl font-bold leading-[1.1] text-white drop-shadow-2xl sm:text-7xl lg:text-8xl">
             El Lago
           </h2>
-          <p className="mx-auto mt-2 max-w-2xl text-sm leading-6 text-white/70 sm:text-base">
+          <div className="mx-auto mt-3 flex items-center justify-center gap-3">
+            <span className="h-px w-8 bg-lago-ocean/30" />
+            <svg
+              className="h-4 w-4 text-lago-ocean/40"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+            >
+              <path d="M2 12 C6 6 10 14 14 10 C18 6 22 12 22 12" />
+            </svg>
+            <span className="h-px w-8 bg-lago-ocean/30" />
+          </div>
+          <p className="mx-auto mt-3 max-w-2xl text-sm leading-6 text-white/70 sm:text-base">
             Un nombre que evoca la frescura y tranquilidad del agua, en el
             corazón de Cúcuta.
           </p>

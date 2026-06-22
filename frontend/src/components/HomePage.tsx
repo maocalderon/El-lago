@@ -11,6 +11,7 @@ import { LocationSection } from "@/components/LocationSection";
 import { MenuSection } from "@/components/MenuSection";
 import { ReservationForm } from "@/components/ReservationForm";
 import { ReviewsSection } from "@/components/ReviewsSection";
+import { WaveDivider } from "@/components/WaveDivider";
 
 export function HomePage() {
   return (
@@ -19,8 +20,11 @@ export function HomePage() {
       <main>
         <Hero />
         <LakeSection />
+        <WaveDivider variant="dark" />
         <AboutSection />
+        <WaveDivider variant="light" />
         <MenuSection />
+        <WaveDivider variant="white" />
         <ReservationForm />
         <ReviewsSection />
         <LocationSection />
