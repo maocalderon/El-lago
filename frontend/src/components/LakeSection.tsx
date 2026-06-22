@@ -4,47 +4,40 @@ import { Reveal } from "@/components/Reveal";
 
 export function LakeSection() {
   return (
-    <section className="bg-lago-pearl py-20 sm:py-24 dark:bg-[#071827]">
-      <div className="section-shell">
+    <section className="relative isolate flex h-[50svh] min-h-[360px] items-center overflow-hidden bg-lago-navy text-white">
+      <Image
+        src="/images/bg-whatsapp.jpeg"
+        alt="Vista del lago que rodea Restaurante El Lago"
+        fill
+        priority
+        sizes="100vw"
+        className="absolute inset-0 -z-20 object-cover"
+      />
+
+      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-lago-navy via-lago-navy/75 to-lago-deep/30" />
+
+      <div className="absolute -left-20 top-20 -z-10 h-64 w-64 rounded-full bg-lago-ocean/10 blur-3xl animate-float-slow" />
+      <div className="absolute right-20 top-40 -z-10 h-40 w-40 rounded-full bg-lago-ocean/10 blur-2xl animate-float-medium" />
+      <div className="absolute bottom-40 left-1/3 -z-10 h-32 w-32 rounded-full bg-lago-gold/10 blur-2xl animate-float-fast" />
+
+      <div className="absolute inset-x-0 bottom-0 -z-10 h-36 bg-gradient-to-t from-lago-navy/75 to-transparent" />
+
+      <div className="section-shell py-16 sm:py-20">
         <Reveal>
-          <div className="mx-auto max-w-6xl">
-            <p className="text-xs font-bold uppercase tracking-[0.28em] text-lago-ocean text-center">
+          <div className="mx-auto max-w-3xl text-center">
+            <p className="inline-flex animate-float-slow rounded-full border border-lago-ocean/30 bg-lago-ocean/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.24em] text-lago-ocean shadow-lg shadow-lago-ocean/10 backdrop-blur">
               Nuestro Entorno
             </p>
-            <h2 className="mt-3 font-display text-3xl font-bold text-lago-navy text-center sm:text-4xl dark:text-white">
+            <h2 className="mt-6 font-display text-4xl font-bold leading-[1.1] sm:text-5xl lg:text-6xl">
               El Lago que da nombre al restaurante
             </h2>
-            <div className="flex justify-center mt-4">
+            <div className="mx-auto mt-6 flex justify-center">
               <div className="section-divider" />
             </div>
-            <p className="mt-5 text-center text-base leading-8 text-slate-600 max-w-3xl mx-auto dark:text-white/70">
+            <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-white/80 sm:text-xl">
               Ubicado a orillas del lago, nuestro restaurante ofrece una vista
               privilegiada que acompaña cada experiencia gastronómica.
             </p>
-          </div>
-        </Reveal>
-
-        <Reveal delay={0.1}>
-          <div className="relative mt-12 overflow-hidden rounded-2xl shadow-premium bg-lago-navy">
-            <div className="relative h-[200px] sm:h-[260px] md:h-[320px]">
-              <Image
-                src="/images/bg-whatsapp.jpeg"
-                alt="Vista del lago que rodea Restaurante El Lago"
-                fill
-                priority
-                sizes="100vw"
-                className="object-contain"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-lago-navy/50 via-transparent to-transparent" />
-            </div>
-            <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6">
-              <p className="text-base font-bold text-white drop-shadow-lg sm:text-lg">
-                Restaurante El Lago — Cúcuta
-              </p>
-              <p className="mt-0.5 text-xs text-white/80 drop-shadow sm:text-sm">
-                Una experiencia única frente al agua
-              </p>
-            </div>
           </div>
         </Reveal>
       </div>
