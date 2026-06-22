@@ -37,7 +37,7 @@ export function Hero() {
 
       <div className="absolute -bottom-10 -right-10 -z-10 h-[500px] w-[500px] opacity-20">
         <Image
-          src="/images/bg-decoration.jpeg"
+          src="/images/bg-whatsapp.jpeg"
           alt=""
           fill
           className="object-cover blur-xl"

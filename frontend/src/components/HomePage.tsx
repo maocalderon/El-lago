@@ -17,7 +17,7 @@ export function HomePage() {
       <div className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
         <div className="absolute -right-40 -top-40 h-[500px] w-[500px] opacity-[0.07] dark:opacity-[0.05]">
           <Image
-            src="/images/bg-decoration.jpeg"
+            src="/images/bg-whatsapp.jpeg"
             alt=""
             fill
             className="rounded-full object-cover blur-3xl"
@@ -26,7 +26,7 @@ export function HomePage() {
         </div>
         <div className="absolute -bottom-40 -left-40 h-[400px] w-[400px] opacity-[0.05] dark:opacity-[0.03]">
           <Image
-            src="/images/bg-decoration.jpeg"
+            src="/images/bg-whatsapp.jpeg"
             alt=""
             fill
             className="rounded-full object-cover blur-3xl"
@@ -35,7 +35,7 @@ export function HomePage() {
         </div>
         <div className="absolute left-1/3 top-1/4 h-72 w-72 opacity-[0.04] dark:opacity-[0.03]">
           <Image
-            src="/images/bg-decoration.jpeg"
+            src="/images/bg-whatsapp.jpeg"
             alt=""
             fill
             className="rounded-full object-cover blur-3xl"
