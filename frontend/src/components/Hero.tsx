@@ -35,16 +35,6 @@ export function Hero() {
         className="absolute inset-0 -z-20 object-cover"
       />
 
-      <div className="absolute -bottom-10 -right-10 -z-10 h-[500px] w-[500px] opacity-20">
-        <Image
-          src="/images/bg-whatsapp.jpeg"
-          alt=""
-          fill
-          className="object-cover blur-xl"
-          sizes="500px"
-        />
-      </div>
-
       <div className="absolute inset-0 -z-10 bg-gradient-to-r from-lago-navy via-lago-navy/80 to-lago-deep/40" />
 
       <div className="absolute -left-20 top-20 -z-10 h-64 w-64 rounded-full bg-lago-ocean/10 blur-3xl animate-float-slow" />
