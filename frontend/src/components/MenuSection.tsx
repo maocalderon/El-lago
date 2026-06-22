@@ -33,7 +33,7 @@ export function MenuSection() {
               <h3 className="mt-6 text-2xl font-bold text-lago-navy dark:text-white">
                 Menú en PDF
               </h3>
-              <p className="mt-3 max-w-xl leading-7 text-slate-600 dark:text-white/70">
+              <p className="mx-auto mt-3 max-w-xl leading-7 text-slate-600 dark:text-white/70">
                 Todos nuestros platos están disponibles en un PDF interactivo
                 que puedes consultar o descargar al instante.
               </p>
@@ -41,7 +41,7 @@ export function MenuSection() {
                 href={MENU_URL}
                 target="_blank"
                 rel="noreferrer"
-                className="primary-button mt-7 inline-flex"
+                className="primary-button mt-7"
               >
                 <FiExternalLink size={18} />
                 Ver Menú
