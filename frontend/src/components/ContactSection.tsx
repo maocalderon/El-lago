@@ -21,9 +21,9 @@ export function ContactSection() {
           <Reveal>
             <a
               href={`tel:${siteConfig.phoneInternational}`}
-              className="flex h-full items-center gap-5 rounded-lg border border-slate-200 bg-white p-6 shadow-soft transition hover:-translate-y-1 hover:shadow-premium dark:border-white/10 dark:bg-white/[0.07]"
+              className="glow-ocean flex h-full items-center gap-5 rounded-lg border border-slate-200 bg-white p-6 shadow-soft transition hover:-translate-y-1 hover:shadow-premium dark:border-white/10 dark:bg-white/[0.07]"
             >
-              <span className="inline-flex h-14 w-14 shrink-0 items-center justify-center rounded-md bg-lago-cream text-lago-gold dark:bg-lago-sky/10 dark:text-lago-sky">
+              <span className="inline-flex h-14 w-14 shrink-0 items-center justify-center rounded-md bg-gradient-to-br from-lago-cream to-lago-ocean/20 text-lago-gold dark:from-lago-ocean/10 dark:to-lago-sky/10 dark:text-lago-sky">
                 <FiPhone size={24} />
               </span>
               <span>
@@ -42,9 +42,9 @@ export function ContactSection() {
               href={whatsappUrl}
               target="_blank"
               rel="noreferrer"
-              className="flex h-full items-center gap-5 rounded-lg border border-emerald-200 bg-emerald-50 p-6 shadow-soft transition hover:-translate-y-1 hover:shadow-premium dark:border-emerald-300/20 dark:bg-emerald-400/10"
+              className="flex h-full items-center gap-5 rounded-lg border border-emerald-200 bg-emerald-50 p-6 shadow-soft transition hover:-translate-y-1 hover:shadow-premium hover:shadow-glow-blue dark:border-emerald-300/20 dark:bg-emerald-400/10"
             >
-              <span className="inline-flex h-14 w-14 shrink-0 items-center justify-center rounded-md bg-emerald-500 text-white">
+              <span className="inline-flex h-14 w-14 shrink-0 items-center justify-center rounded-md bg-emerald-500 text-white shadow-lg">
                 <FaWhatsapp size={27} />
               </span>
               <span>
@@ -59,7 +59,7 @@ export function ContactSection() {
           </Reveal>
 
           <Reveal delay={0.12}>
-            <div className="h-full rounded-lg border border-slate-200 bg-white p-6 shadow-soft dark:border-white/10 dark:bg-white/[0.07]">
+            <div className="glow-ocean h-full rounded-lg border border-slate-200 bg-white p-6 shadow-soft transition hover:shadow-premium dark:border-white/10 dark:bg-white/[0.07]">
               <p className="text-sm font-semibold text-slate-500 dark:text-white/60">
                 Redes Sociales
               </p>
@@ -69,7 +69,7 @@ export function ContactSection() {
                   target="_blank"
                   rel="noreferrer"
                   aria-label="Facebook"
-                  className="inline-flex h-12 w-12 items-center justify-center rounded-md bg-lago-navy text-white transition hover:-translate-y-0.5 hover:bg-lago-gold"
+                  className="inline-flex h-12 w-12 items-center justify-center rounded-md bg-lago-navy text-white shadow-soft transition hover:-translate-y-0.5 hover:bg-lago-ocean hover:shadow-glow-blue"
                 >
                   <FaFacebookF size={18} />
                 </a>
@@ -78,7 +78,7 @@ export function ContactSection() {
                   target="_blank"
                   rel="noreferrer"
                   aria-label="Instagram"
-                  className="inline-flex h-12 w-12 items-center justify-center rounded-md bg-lago-gold text-white transition hover:-translate-y-0.5 hover:bg-lago-deep"
+                  className="inline-flex h-12 w-12 items-center justify-center rounded-md bg-lago-ocean text-white shadow-soft transition hover:-translate-y-0.5 hover:bg-lago-navy hover:shadow-glow-blue"
                 >
                   <FaInstagram size={20} />
                 </a>

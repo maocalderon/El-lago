@@ -47,8 +47,8 @@ export function AboutSection() {
 
             return (
               <Reveal key={value.title} delay={index * 0.08}>
-                <article className="h-full rounded-lg border border-slate-200 bg-white p-7 shadow-soft transition hover:-translate-y-1 hover:shadow-premium dark:border-white/10 dark:bg-white/[0.07]">
-                  <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-md bg-lago-cream text-lago-gold dark:bg-lago-sky/10 dark:text-lago-sky">
+                <article className="glow-ocean h-full rounded-lg border border-slate-200 bg-white p-7 shadow-soft transition hover:-translate-y-1 hover:shadow-premium dark:border-white/10 dark:bg-white/[0.07]">
+                  <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-md bg-gradient-to-br from-lago-cream to-lago-ocean/20 text-lago-gold shadow-inner dark:from-lago-ocean/10 dark:to-lago-sky/10 dark:text-lago-sky">
                     <Icon size={25} />
                   </div>
                   <h3 className="text-xl font-bold text-lago-navy dark:text-white">

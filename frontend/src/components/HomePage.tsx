@@ -33,6 +33,15 @@ export function HomePage() {
             sizes="400px"
           />
         </div>
+        <div className="absolute left-1/3 top-1/4 h-72 w-72 opacity-[0.04] dark:opacity-[0.03]">
+          <Image
+            src="/images/bg-decoration.jpeg"
+            alt=""
+            fill
+            className="rounded-full object-cover blur-3xl"
+            sizes="300px"
+          />
+        </div>
       </div>
       <Header />
       <main>

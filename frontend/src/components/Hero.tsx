@@ -34,6 +34,7 @@ export function Hero() {
         sizes="100vw"
         className="absolute inset-0 -z-20 object-cover"
       />
+
       <div className="absolute -bottom-10 -right-10 -z-10 h-[500px] w-[500px] opacity-20">
         <Image
           src="/images/bg-decoration.jpeg"
@@ -43,12 +44,18 @@ export function Hero() {
           sizes="500px"
         />
       </div>
+
       <div className="absolute inset-0 -z-10 bg-gradient-to-r from-lago-navy via-lago-navy/80 to-lago-deep/40" />
+
+      <div className="absolute -left-20 top-20 -z-10 h-64 w-64 rounded-full bg-lago-ocean/10 blur-3xl animate-float-slow" />
+      <div className="absolute right-20 top-40 -z-10 h-40 w-40 rounded-full bg-lago-ocean/10 blur-2xl animate-float-medium" />
+      <div className="absolute bottom-40 left-1/3 -z-10 h-32 w-32 rounded-full bg-lago-gold/10 blur-2xl animate-float-fast" />
+
       <div className="absolute inset-x-0 bottom-0 -z-10 h-36 bg-gradient-to-t from-lago-navy/75 to-transparent" />
 
       <div className="section-shell py-16 sm:py-20">
         <div className="max-w-3xl">
-          <p className="mb-5 inline-flex rounded-full border border-lago-gold/30 bg-lago-gold/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.24em] text-lago-gold backdrop-blur">
+          <p className="mb-5 inline-flex animate-float-slow rounded-full border border-lago-ocean/30 bg-lago-ocean/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.24em] text-lago-ocean shadow-lg shadow-lago-ocean/10 backdrop-blur">
             Pescados y mariscos en Cúcuta
           </p>
           <h1 className="font-display text-5xl font-bold leading-[1.02] sm:text-6xl lg:text-7xl">
@@ -79,7 +86,7 @@ export function Hero() {
       <a
         href="#nosotros"
         aria-label="Ir a nosotros"
-        className="absolute bottom-6 left-1/2 hidden -translate-x-1/2 rounded-full border border-white/20 bg-white/10 p-3 text-white backdrop-blur transition hover:bg-white/20 md:inline-flex"
+        className="absolute bottom-6 left-1/2 hidden -translate-x-1/2 rounded-full border border-white/20 bg-white/10 p-3 text-white shadow-lg backdrop-blur transition hover:-translate-y-1 hover:bg-white/20 hover:shadow-glow-blue md:inline-flex"
       >
         <FiChevronDown size={20} />
       </a>

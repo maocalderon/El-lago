@@ -17,8 +17,8 @@ export function MenuSection() {
         </Reveal>
 
         <Reveal delay={0.08}>
-          <div className="mx-auto mt-10 flex max-w-3xl flex-col items-center rounded-lg border border-slate-200 bg-lago-pearl p-7 text-center shadow-premium sm:p-10 dark:border-white/10 dark:bg-white/[0.06]">
-            <div className="inline-flex h-16 w-16 items-center justify-center rounded-md bg-lago-cream text-lago-gold dark:bg-lago-sky/10 dark:text-lago-sky">
+          <div className="glow-ocean mx-auto mt-10 flex max-w-3xl flex-col items-center rounded-lg border border-slate-200 bg-lago-pearl p-7 text-center shadow-premium transition hover:shadow-glow-blue sm:p-10 dark:border-white/10 dark:bg-white/[0.06]">
+            <div className="inline-flex h-16 w-16 items-center justify-center rounded-md bg-gradient-to-br from-lago-cream to-lago-ocean/20 text-lago-gold dark:from-lago-ocean/10 dark:to-lago-sky/10 dark:text-lago-sky">
               <FiFileText size={31} />
             </div>
             <h3 className="mt-6 text-2xl font-bold text-lago-navy dark:text-white">
