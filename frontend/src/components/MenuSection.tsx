@@ -19,7 +19,7 @@ export function MenuSection() {
           <SectionHeading
             eyebrow="Menú Digital"
             title="Carta oficial de Restaurante El Lago"
-            description="Consulta nuestra carta en PDF con la propuesta gastronómica del restaurante, manteniendo la página principal limpia y enfocada en la experiencia."
+            description="Explora nuestra selección de pescados y mariscos frescos preparados con la tradición que distingue a El Lago. Descarga o consulta la carta completa en PDF."
           />
         </Reveal>
 
@@ -34,9 +34,8 @@ export function MenuSection() {
                 Menú en PDF
               </h3>
               <p className="mt-3 max-w-xl leading-7 text-slate-600 dark:text-white/70">
-                La carta se mantiene en un archivo independiente para que puedas
-                actualizarla fácilmente sin cargar platos dentro de la página
-                principal.
+                Todos nuestros platos están disponibles en un PDF interactivo
+                que puedes consultar o descargar al instante.
               </p>
               <a
                 href={MENU_URL}
