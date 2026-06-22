@@ -4,7 +4,7 @@ import { Reveal } from "@/components/Reveal";
 
 export function LakeSection() {
   return (
-    <section className="relative isolate flex h-[50svh] min-h-[360px] items-center overflow-hidden bg-lago-navy text-white">
+    <section className="relative isolate flex h-[55svh] min-h-[400px] items-center overflow-hidden bg-lago-navy text-white">
       <Image
         src="/images/bg-whatsapp.jpeg"
         alt="Vista del lago que rodea Restaurante El Lago"
@@ -30,9 +30,9 @@ export function LakeSection() {
           <h2 className="mt-2 font-display text-5xl font-bold leading-[1.1] text-white drop-shadow-2xl sm:text-7xl lg:text-8xl">
             El Lago
           </h2>
-          <p className="mx-auto mt-2 max-w-xl text-sm leading-6 text-white/70 sm:text-base">
-            Ubicado a orillas del lago, nuestro restaurante ofrece una vista
-            privilegiada que acompaña cada experiencia gastronómica.
+          <p className="mx-auto mt-2 max-w-2xl text-sm leading-6 text-white/70 sm:text-base">
+            Un nombre que evoca la frescura y tranquilidad del agua, en el
+            corazón de Cúcuta.
           </p>
         </Reveal>
       </div>
