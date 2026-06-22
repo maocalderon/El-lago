@@ -25,18 +25,17 @@ export function LakeSection() {
         </Reveal>
 
         <Reveal delay={0.1}>
-          <div className="relative mt-12 overflow-hidden rounded-2xl shadow-premium">
-            <div className="relative h-[300px] w-full sm:h-[400px] md:h-[450px] lg:h-[500px]">
+          <div className="relative mt-12 overflow-hidden rounded-2xl shadow-premium bg-lago-navy/5">
+            <div className="relative">
               <Image
                 src="/images/bg-whatsapp.jpeg"
                 alt="Vista del lago que rodea Restaurante El Lago"
-                fill
+                width={1200}
+                height={675}
                 priority
-                sizes="100vw"
-                className="object-cover"
-                style={{ objectPosition: "center" }}
+                className="w-full h-auto"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-lago-navy/40 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-lago-navy/50 via-transparent to-transparent" />
             </div>
             <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-8">
               <p className="text-lg font-bold text-white drop-shadow-lg sm:text-xl">
