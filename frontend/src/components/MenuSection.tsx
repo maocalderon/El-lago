@@ -19,7 +19,7 @@ export function MenuSection() {
           <SectionHeading
             eyebrow="Menú Digital"
             title="Carta oficial de Restaurante El Lago"
-            description="Explora nuestra selección de pescados y mariscos frescos preparados con la tradición que distingue a El Lago. Descarga o consulta la carta completa en PDF."
+            description="Explora nuestra carta con platos preparados con la tradición que distingue a El Lago. Descarga o consulta el menú completo en PDF."
           />
         </Reveal>
 

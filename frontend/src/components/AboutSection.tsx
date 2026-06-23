@@ -13,7 +13,7 @@ const values: Array<{
     icon: FaFish,
     title: "Especialidad marina",
     description:
-      "Una propuesta centrada en pescados y mariscos frescos, preparada con criterio y cuidado."
+      "Una propuesta gastronómica con ingredientes frescos, preparada con criterio y cuidado."
   },
   {
     icon: FaHandsHelping,
@@ -44,7 +44,7 @@ export function AboutSection() {
           <SectionHeading
             eyebrow="Sobre Nosotros"
             title="Tradición, frescura y hospitalidad junto a la mesa"
-            description="Restaurante El Lago es un restaurante reconocido en Cúcuta por su especialidad en pescados y mariscos frescos. Nuestro compromiso es brindar una experiencia gastronómica excepcional, combinando ingredientes de calidad, excelente servicio y un ambiente ideal para compartir en familia."
+            description="Restaurante El Lago es un destino reconocido en Cúcuta por su tradición culinaria y compromiso con la frescura. Nuestro compromiso es brindar una experiencia gastronómica excepcional, combinando ingredientes de calidad, excelente servicio y un ambiente ideal para compartir en familia."
           />
         </Reveal>
 

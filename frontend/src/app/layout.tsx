@@ -4,14 +4,14 @@ import type { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Restaurante El Lago | Pescados y Mariscos en Cúcuta",
+  title: "Restaurante El Lago | Tradición y sabor en Cúcuta",
   description:
-    "Restaurante especializado en pescados y mariscos en Cúcuta. Reserva tu mesa y consulta nuestro menú digital.",
+    "Restaurante en Cúcuta con tradición culinaria y ambiente único. Reserva tu mesa y consulta nuestro menú digital.",
   metadataBase: new URL("https://restauranteellago.com"),
   openGraph: {
-    title: "Restaurante El Lago | comida de mar en Cúcuta",
+    title: "Restaurante El Lago | Tradición y sabor en Cúcuta",
     description:
-      "Restaurante especializado en pescados  en Cúcuta. Reserva tu mesa y consulta nuestro menú digital.",
+      "Restaurante en Cúcuta con tradición culinaria y ambiente único. Reserva tu mesa y consulta nuestro menú digital.",
     type: "website",
     locale: "es_CO",
     images: [

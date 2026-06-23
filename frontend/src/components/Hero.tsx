@@ -46,18 +46,17 @@ export function Hero() {
       <div className="section-shell py-16 sm:py-20">
         <div className="max-w-3xl">
           <p className="mb-5 inline-flex animate-float-slow rounded-full border border-lago-ocean/30 bg-lago-ocean/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.24em] text-lago-ocean shadow-lg shadow-lago-ocean/10 backdrop-blur">
-            Pescados y mariscos en Cúcuta
+            Tradición y sabor en Cúcuta
           </p>
           <h1 className="font-display text-5xl font-bold leading-[1.02] sm:text-6xl lg:text-7xl">
             Restaurante El Lago
           </h1>
           <p className="mt-6 text-xl font-semibold text-white sm:text-2xl">
-            Especialistas en Pescados y Mariscos en Cúcuta
+            Una experiencia gastronómica única en Cúcuta
           </p>
           <p className="mt-5 max-w-2xl text-base leading-8 text-white/80 sm:text-lg">
-            Disfruta de una experiencia gastronómica única con los mejores
-            sabores del mar preparados con ingredientes frescos y atención de
-            calidad.
+            Disfruta de una experiencia gastronómica única con ingredientes
+            frescos, atención de calidad y un ambiente inigualable.
           </p>
 
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
