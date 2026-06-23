@@ -8,6 +8,7 @@ import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { LakeSection } from "@/components/LakeSection";
+import { PoolSection } from "@/components/PoolSection";
 import { LocationSection } from "@/components/LocationSection";
 import { MenuSection } from "@/components/MenuSection";
 import { ReservationForm } from "@/components/ReservationForm";
@@ -27,6 +28,8 @@ export function HomePage() {
         <MenuSection />
         <WaveDivider variant="white" />
         <EventHallSection />
+        <WaveDivider variant="dark" />
+        <PoolSection />
         <WaveDivider variant="dark" />
         <ReservationForm />
         <ReviewsSection />
