@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import { AboutSection } from "@/components/AboutSection";
 import { ContactSection } from "@/components/ContactSection";
+import { EventHallSection } from "@/components/EventHallSection";
 import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
@@ -25,6 +26,8 @@ export function HomePage() {
         <WaveDivider variant="light" />
         <MenuSection />
         <WaveDivider variant="white" />
+        <EventHallSection />
+        <WaveDivider variant="dark" />
         <ReservationForm />
         <ReviewsSection />
         <LocationSection />
