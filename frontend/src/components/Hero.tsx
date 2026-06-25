@@ -55,8 +55,8 @@ export function Hero() {
             Una experiencia gastronómica única en Cúcuta
           </p>
           <p className="mt-5 max-w-2xl text-base leading-8 text-white/80 sm:text-lg">
-            Disfruta de una experiencia gastronómica única con ingredientes
-            frescos, atención de calidad y un ambiente inigualable.
+            Disfruta de una <span className="text-lago-gold">experiencia gastronómica</span> única con ingredientes
+            frescos, atención de calidad y un <span className="text-lago-ocean">ambiente inigualable</span>.
           </p>
 
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
