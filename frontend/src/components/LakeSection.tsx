@@ -4,7 +4,7 @@ import { Reveal } from "@/components/Reveal";
 
 export function LakeSection() {
   return (
-    <section className="relative isolate flex min-h-[85svh] items-center overflow-hidden bg-lago-navy text-white">
+    <section className="relative isolate flex h-[70svh] min-h-[450px] items-center overflow-hidden bg-lago-navy text-white">
       <Image
         src="/images/bg-whatsapp.jpeg"
         alt="Vista del lago que rodea Restaurante El Lago"
@@ -12,6 +12,7 @@ export function LakeSection() {
         priority
         sizes="100vw"
         className="absolute inset-0 -z-20 object-cover"
+        style={{ objectPosition: "50% 35%" }}
       />
 
       <div className="absolute inset-0 -z-10 bg-gradient-to-r from-lago-navy/80 via-lago-navy/50 to-lago-deep/20" />
