@@ -11,8 +11,8 @@ export function LakeSection() {
         fill
         priority
         sizes="100vw"
-        className="absolute inset-0 -z-20 object-cover"
-        style={{ objectPosition: "50% 35%" }}
+        className="absolute inset-0 -z-20 object-contain"
+        style={{ objectPosition: "center" }}
       />
 
       <div className="absolute inset-0 -z-10 bg-gradient-to-r from-lago-navy/80 via-lago-navy/50 to-lago-deep/20" />
