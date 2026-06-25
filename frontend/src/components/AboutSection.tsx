@@ -44,7 +44,7 @@ export function AboutSection() {
           <SectionHeading
             eyebrow="Sobre Nosotros"
             title="Tradición, frescura y hospitalidad junto a la mesa"
-            description="Restaurante El Lago es un destino reconocido en Cúcuta por su <span className='text-lago-gold'>tradición culinaria</span> y compromiso con la frescura. Nuestro compromiso es brindar una <span className='text-lago-ocean'>experiencia gastronómica excepcional</span>, combinando ingredientes de calidad, excelente servicio y un ambiente ideal para compartir en familia."
+            description="Restaurante El Lago es un destino reconocido en Cúcuta por su tradición culinaria y compromiso con la frescura. Nuestro compromiso es brindar una experiencia gastronómica excepcional, combinando ingredientes de calidad, excelente servicio y un ambiente ideal para compartir en familia."
           />
         </Reveal>
 
