@@ -35,13 +35,13 @@ export function Hero() {
         className="absolute inset-0 -z-20 object-cover"
       />
 
-      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-lago-navy/80 via-lago-navy/50 to-lago-deep/30" />
+      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-lago-navy/70 via-white/30 to-white/10" />
 
-      <div className="absolute -left-20 top-20 -z-10 h-64 w-64 rounded-full bg-lago-ocean/10 blur-3xl animate-float-slow" />
-      <div className="absolute right-20 top-40 -z-10 h-40 w-40 rounded-full bg-lago-ocean/10 blur-2xl animate-float-medium" />
+      <div className="absolute -left-20 top-20 -z-10 h-64 w-64 rounded-full bg-white/20 blur-3xl animate-float-slow" />
+      <div className="absolute right-20 top-40 -z-10 h-40 w-40 rounded-full bg-white/10 blur-2xl animate-float-medium" />
       <div className="absolute bottom-40 left-1/3 -z-10 h-32 w-32 rounded-full bg-lago-gold/10 blur-2xl animate-float-fast" />
 
-      <div className="absolute inset-x-0 bottom-0 -z-10 h-48 bg-gradient-to-t from-lago-navy/80 to-transparent" />
+      <div className="absolute inset-x-0 bottom-0 -z-10 h-48 bg-gradient-to-t from-white/20 to-transparent" />
 
       <div className="section-shell py-16 sm:py-20">
         <div className="max-w-3xl">

@@ -14,12 +14,12 @@ export function EventHallSection() {
         className="absolute inset-0 -z-20 object-cover"
       />
 
-      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-lago-navy via-lago-navy/70 to-lago-deep/40" />
+      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-lago-navy/70 via-white/20 to-white/5" />
 
-      <div className="absolute -right-20 top-20 -z-10 h-56 w-56 rounded-full bg-lago-ocean/10 blur-3xl animate-float-slow" />
+      <div className="absolute -right-20 top-20 -z-10 h-56 w-56 rounded-full bg-white/15 blur-3xl animate-float-slow" />
       <div className="absolute left-20 bottom-20 -z-10 h-36 w-36 rounded-full bg-lago-gold/10 blur-2xl animate-float-medium" />
 
-      <div className="absolute inset-x-0 bottom-0 -z-10 h-1/3 bg-gradient-to-t from-lago-navy/85 to-transparent" />
+      <div className="absolute inset-x-0 bottom-0 -z-10 h-1/3 bg-gradient-to-t from-white/20 to-transparent" />
 
       <div className="section-shell">
         <Reveal>
