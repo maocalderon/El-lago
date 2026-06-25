@@ -1,13 +1,13 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Outfit, Playfair_Display } from "next/font/google";
 
 import "./globals.css";
 
-const inter = Inter({
+const outfit = Outfit({
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-inter"
+  variable: "--font-outfit"
 });
 
 const playfair = Playfair_Display({
@@ -57,7 +57,7 @@ export default function RootLayout({
   children: ReactNode;
 }>) {
   return (
-    <html lang="es" suppressHydrationWarning className={`${inter.variable} ${playfair.variable}`}>
+    <html lang="es" suppressHydrationWarning className={`${outfit.variable} ${playfair.variable}`}>
       <body>{children}</body>
     </html>
   );

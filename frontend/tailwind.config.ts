@@ -41,7 +41,7 @@ const config: Config = {
         sway: "sway 4s ease-in-out infinite"
       },
       fontFamily: {
-        sans: ["var(--font-inter)", "Arial", "sans-serif"],
+        sans: ["var(--font-outfit)", "Arial", "sans-serif"],
         display: ["var(--font-playfair)", "Georgia", "serif"]
       }
     }

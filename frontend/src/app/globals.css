@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --font-inter: "Inter", "Segoe UI", Arial, sans-serif;
+  --font-outfit: "Outfit", "Segoe UI", Arial, sans-serif;
   --font-playfair: "Playfair Display", Georgia, serif;
   color-scheme: light;
 }

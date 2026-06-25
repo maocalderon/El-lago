@@ -48,6 +48,13 @@ const gallery: GalleryItem[] = [
     label: "Nuestro Restaurante",
     description:
       "Cada rincón de El Lago está creado para brindarte una experiencia única, ya sea en familia, con amigos o en eventos especiales."
+  },
+  {
+    src: "/images/instalacion3.jpeg",
+    alt: "Restaurante El Lago ambiente",
+    label: "Nuestro Restaurante",
+    description:
+      "Un ambiente cálido y acogedor que invita a quedarse. Ven y descubre por qué El Lago es el lugar favorito de Cúcuta."
   }
 ];
 
