@@ -23,12 +23,12 @@ html {
 body {
   min-height: 100vh;
   background: #eef6fb;
-  color: #1a4a6b;
+  color: #0c2a3d;
   font-family: var(--font-inter);
 }
 
 .dark body {
-  background: #1a4a6b;
+  background: #0c2a3d;
   color: #eef6fb;
 }
 
