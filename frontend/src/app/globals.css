@@ -33,7 +33,7 @@ body {
 }
 
 ::selection {
-  background: rgba(245, 220, 74, 0.3);
+  background: rgba(247, 232, 78, 0.3);
 }
 
 @keyframes float {
