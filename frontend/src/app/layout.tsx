@@ -1,7 +1,20 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
+import { Inter, Playfair_Display } from "next/font/google";
 
 import "./globals.css";
+
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter"
+});
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-playfair"
+});
 
 export const metadata: Metadata = {
   title: "Restaurante El Lago | Tradición y sabor en Cúcuta",
@@ -25,9 +38,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Restaurante El Lago | Pescados  en Cúcuta",
+    title: "Restaurante El Lago | Tradición y sabor en Cúcuta",
     description:
-      "Restaurante especializado en comida de mar en la ciudad de Cúcuta. Reserva tu mesa y consulta nuestro menú digital.",
+      "Restaurante en Cúcuta con tradición culinaria y ambiente único. Reserva tu mesa y consulta nuestro menú digital.",
     images: ["/images/el-lago-hero.png"]
   }
 };
@@ -44,7 +57,7 @@ export default function RootLayout({
   children: ReactNode;
 }>) {
   return (
-    <html lang="es" suppressHydrationWarning>
+    <html lang="es" suppressHydrationWarning className={`${inter.variable} ${playfair.variable}`}>
       <body>{children}</body>
     </html>
   );

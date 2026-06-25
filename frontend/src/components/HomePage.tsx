@@ -3,6 +3,7 @@ import Image from "next/image";
 import { AboutSection } from "@/components/AboutSection";
 import { ContactSection } from "@/components/ContactSection";
 import { EventHallSection } from "@/components/EventHallSection";
+import { FacilitiesSection } from "@/components/FacilitiesSection";
 import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
@@ -31,6 +32,8 @@ export function HomePage() {
         <WaveDivider variant="dark" />
         <PoolSection />
         <WaveDivider variant="dark" />
+        <FacilitiesSection />
+        <WaveDivider variant="light" />
         <ReservationForm />
         <ReviewsSection />
         <LocationSection />
